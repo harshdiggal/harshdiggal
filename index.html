@@ -4,93 +4,114 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Harsh Diggal</title>
-		<link rel="stylesheet" href="build/css/style.css" />
+		<link rel="stylesheet" href="src/css/style.css" />
 		<link
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet"
 		/>
+		<script src="./src/js/main.js" defer></script>
 	</head>
 	<body>
-		<nav class="">
-			<h3 class="">harshdiggal.dev</h3>
+		<nav>
+			<h3 class="logo">harshdiggal.dev</h3>
 			<ul class="">
-				<li>Home</li>
-				<li>About</li>
-				<li>Projects</li>
-				<li>Contact</li>
+				<li><a href="/">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><i class="bx bx-menu-alt-right mobile-menu"></i></li>
 			</ul>
 		</nav>
+		<div class="mobile-nav closed-menu">
+			<span><i class="bx bx-x"></i></span>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
 		<section id="home" class="hero">
 			<div class="container">
 				<div class="content">
 					<div class="hero-main">
 						<div class="hero-text">
-							<h1 class="">Full Stack Web Developer</h1>
-							<img
-								src="./src/img/waving.png"
-								alt="waving_hand"
-								class=""
-							/>
-							<p class="">
+							<h1>Full Stack Web Developer</h1>
+							<img src="./src/img/waving.png" alt="waving_hand" />
+							<p>
 								Hi, I'm Harsh Diggal. A passionate Full-Stack
 								Web Developer based in Uttar Pradesh, India 📍
 							</p>
-							<span class="">
+							<span>
 								<a
-									aria-label="linkedin"
+									aria-label="LinkedIn"
 									rel="noreferrer"
 									href="https://www.linkedin.com/in/harshdiggal/"
 									target="_blank"
-									class=""
 									><i class="bx bxl-linkedin-square"></i>
 								</a>
 								<a
-									aria-label="github"
+									aria-label="GitHub"
 									rel="noreferrer"
 									href="https://github.com/harshdiggal"
 									target="_blank"
-									class=""
 									><i class="bx bxl-github"></i>
 								</a>
+								<a
+									aria-label="LeetCode"
+									rel="noreferrer"
+									href="https://leetcode.com/harshdiggal/"
+									target="_blank"
+									><img
+										src="./src/img/leetcode-dark.png"
+										alt="LeetCode"
+								/></a>
+								<a
+									aria-label="CodeChef"
+									rel="noreferrer"
+									href="https://www.codechef.com/users/harsh_diggal"
+									target="_blank"
+									><img
+										src="./src/img/codechef-dark.svg"
+										alt="CodeChef"
+								/></a>
 							</span>
 						</div>
-						<div
-							class="hero-img"
-							style="background-image: url(./src/img/pp.jpg)"
-						></div>
+						<div class="hero-img"></div>
 					</div>
 					<div class="skills">
-						<p class="">Tech Stack</p>
+						<p>Tech Stack</p>
 						<div class="logos">
-							<ul class="">
-								<li class="">
+							<ul>
+								<li>
 									<img src="./src/img/html.svg" alt="HTML5" />
 								</li>
-								<li class="">
+								<li>
 									<img src="./src/img/css.svg" alt="CSS" />
 								</li>
-								<li class="">
+								<li>
 									<img src="./src/img/js.svg" alt="JS" />
 								</li>
-								<li class="">
+								<li>
 									<img
 										src="./src/img/tailwind.svg"
 										alt="TailwindCSS"
 									/>
 								</li>
-								<li class="">
+								<li>
 									<img
 										src="./src/img/react.svg"
 										alt="ReactJS"
+										class="react-icon"
 									/>
 								</li>
-								<li class="">
+								<li>
 									<img
 										src="./src/img/express.svg"
 										alt="ExpressJS"
 									/>
 								</li>
-								<li class="">
+								<li>
 									<img
 										src="./src/img/mongodb.svg"
 										alt="MongoDB"
@@ -102,5 +123,206 @@
 				</div>
 			</div>
 		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about-content">
+					<div class="img-side">
+						<img
+							src="./src/img/laptop.webp"
+							alt="laptop"
+							class="img-side__main-img"
+						/>
+					</div>
+					<div class="text-side">
+						<h3>About Me</h3>
+						<h4>
+							A dedicated Full-Stack Web Developer<br />based in
+							Uttar Pradesh, India 📍
+						</h4>
+						<p>
+							I'm a results-driven full stack web developer with a
+							strong foundation in problem-solving and a versatile
+							skill set. Proficient in C++, data structures, and
+							algorithms, I seamlessly translate designs into
+							responsive web applications using HTML, CSS, and
+							JavaScript. My expertise extends to harnessing the
+							power of frameworks like React, Express.js, and
+							MongoDB to create engaging and high-performing web
+							experiences.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="projects" class="project">
+			<div class="container">
+				<div class="project-content">
+					<p>portfolio</p>
+					<h3>Each project is a unique piece of development 🧩</h3>
+					<div class="projects-grid">
+						<div class="pro pro__1 undefined">
+							<div class="pro__img">
+								<a
+									href="https://harshdiggal.github.io/car_rental/"
+									rel="noreferrer"
+									target="_blank"
+									><img
+										src="./src/img/car_rental.png"
+										alt="Car Rental"
+										style="
+											transform: translateY(0%);
+											transition: transform 10s
+												ease-in-out 0s;
+										"
+								/></a>
+							</div>
+							<div class="pro__text">
+								<h3>Car Rental 🚗</h3>
+								<p>
+									A car rental website that allows users to
+									rent cars for personal or business use. The
+									website provides an interface for searching,
+									comparing, and reserving cars.
+								</p>
+								<div class="stack">
+									<p>HTML</p>
+									<p>CSS</p>
+								</div>
+								<div class="links">
+									<a
+										href="https://github.com/harshdiggal/car_rental"
+										target="_blank"
+										rel="noreferrer"
+										>Code <i class="bx bxl-github"></i></a
+									><a
+										href="https://harshdiggal.github.io/car_rental/"
+										rel="noreferrer"
+										target="_blank"
+										>Live Demo
+										<i
+											class="bx bx-link-external link-icon"
+										></i
+									></a>
+								</div>
+							</div>
+						</div>
+						<div class="pro pro__1 reversed-proj">
+							<div class="pro__img">
+								<a
+									href="https://harshdiggal.github.io/tacoShop/"
+									rel="noreferrer"
+									target="_blank"
+									><img
+										src="./src/img/taco_shop.png"
+										alt="Taco Shop"
+										style="
+											transform: translateY(0%);
+											transition: transform 10s
+												ease-in-out 0s;
+										"
+								/></a>
+							</div>
+							<div class="pro__text">
+								<h3>Little Taco Shop 🌮</h3>
+								<p>
+									A landing page for a taco shop that allows
+									users to view operating hours, explore the
+									menu, find the location, and conveniently
+									get in touch with the shop.
+								</p>
+								<div class="stack">
+									<p>HTML</p>
+									<p>CSS</p>
+								</div>
+								<div class="links">
+									<a
+										href="https://github.com/harshdiggal/tacoShop"
+										target="_blank"
+										rel="noreferrer"
+										>Code <i class="bx bxl-github"></i></a
+									><a
+										href="https://harshdiggal.github.io/tacoShop/"
+										rel="noreferrer"
+										target="_blank"
+										>Live Demo
+										<i
+											class="bx bx-link-external link-icon"
+										></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="contact__content">
+					<div class="contact__title">
+						<p>Contact</p>
+						<h3>Don't be shy! Hit me up! 👇</h3>
+					</div>
+					<div class="contact__icons">
+						<div class="contact__icon-box">
+							<span><i class="bx bxs-map"></i></span>
+							<div class="contact__info">
+								<h3>Location</h3>
+								<p>Uttar Pradesh, India</p>
+							</div>
+						</div>
+						<div class="contact__icon-box">
+							<span><i class="bx bxs-envelope"></i></span>
+							<div class="contact__info">
+								<h3>Mail</h3>
+								<a href="mailto:harshdiggal@outlook.com"
+									>harshdiggal@outlook.com</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="footerc">
+					<h3>
+						Copyright &copy; <time id="year"></time>. All rights are
+						reserved
+					</h3>
+					<div class="footerc__socials">
+						<a
+							aria-label="LinkedIn"
+							rel="noreferrer"
+							href="https://www.linkedin.com/in/harshdiggal/"
+							target="_blank"
+							><i class="bx bxl-linkedin-square"></i>
+						</a>
+						<a
+							aria-label="GitHub"
+							rel="noreferrer"
+							href="https://github.com/harshdiggal"
+							target="_blank"
+							><i class="bx bxl-github"></i>
+						</a>
+						<a
+							aria-label="LeetCode"
+							rel="noreferrer"
+							href="https://leetcode.com/harshdiggal/"
+							target="_blank"
+							><img src="./src/img/leetcode.png" alt="LeetCode"
+						/></a>
+						<a
+							aria-label="CodeChef"
+							rel="noreferrer"
+							href="https://www.codechef.com/users/harsh_diggal"
+							target="_blank"
+							><img src="./src/img/codechef.svg" alt="CodeChef"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
