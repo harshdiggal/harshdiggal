@@ -300,7 +300,7 @@ nav ul a:hover {
 	color: #2d2e32;
 }
 
-.hero-text span img {
+.hero-text span a img {
 	height: 3rem;
 	width: 3rem;
 	position: inherit;
