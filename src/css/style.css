@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 
 body {
 	background-color: white;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	position: relative;
 }
 
@@ -278,7 +278,7 @@ nav ul a:hover {
 	font-size: 1.8rem;
 	font-weight: 500;
 	color: #555555;
-	font-family: "Mulish", sans-serif;
+	font-family: 'Mulish', sans-serif;
 	line-height: 1.6;
 }
 
@@ -375,7 +375,7 @@ nav ul a:hover {
 }
 
 .hero-img {
-	background-image: url("../img/pp.jpg");
+	background-image: url('../img/pp.jpg');
 	width: 35rem;
 	height: 35rem;
 	background-size: cover;
@@ -416,7 +416,7 @@ nav ul a:hover {
 	margin-right: 7rem;
 	padding-right: 2rem;
 	border-right: 2px solid rgba(45, 46, 50, 0.5);
-	font-family: "Mulish", sans-serif;
+	font-family: 'Mulish', sans-serif;
 	font-weight: 600;
 	color: #2d2e32;
 }
@@ -518,7 +518,7 @@ nav ul a:hover {
 
 .text-side h4 {
 	font-size: 2.5rem;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 1.4;
 	margin-bottom: 2rem;
 	color: #2d2e32;
@@ -526,7 +526,7 @@ nav ul a:hover {
 
 .text-side p {
 	font-size: 1.7rem;
-	font-family: "Mulish", sans-serif;
+	font-family: 'Mulish', sans-serif;
 	color: #767676;
 	font-weight: 500;
 	line-height: 1.5;
@@ -708,7 +708,7 @@ nav ul a:hover {
 	background-color: white;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	padding: 1rem 1.3rem;
-	font-family: "Mulish", sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
 }
 
 .links {
