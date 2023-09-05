@@ -1,1 +1,5 @@
-* text=auto
+# Set the root configuration to apply to the entire repository
+* text=auto eol=lf charset=utf-8 indent_style=tab indent_size=4
+
+# Exclude .md files from whitespace trimming
+*.md -whitespace
